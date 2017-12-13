@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77360FF356279054A0618F6 /* Pods_YouTubeListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C9D867A54F3ED540B9D05E8 /* Pods_YouTubeListener.framework */; };
+		FD2B573A1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD2B57391FE0F41A00FAC54D /* GoogleService-Info.plist */; };
+		FD2B573B1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD2B57391FE0F41A00FAC54D /* GoogleService-Info.plist */; };
+		FD2B573C1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD2B57391FE0F41A00FAC54D /* GoogleService-Info.plist */; };
 		FD3B80181FE0AF5700449366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3B80171FE0AF5700449366 /* AppDelegate.swift */; };
 		FD3B801A1FE0AF5700449366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3B80191FE0AF5700449366 /* ViewController.swift */; };
 		FD3B801D1FE0AF5700449366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD3B801B1FE0AF5700449366 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C9D867A54F3ED540B9D05E8 /* Pods_YouTubeListener.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouTubeListener.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C919B63C5D17BC2DA6AC5D61 /* Pods-YouTubeListener.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeListener.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener.debug.xcconfig"; sourceTree = "<group>"; };
+		E1F56C93C1F080EF99CCB559 /* Pods-YouTubeListener.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouTubeListener.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener.release.xcconfig"; sourceTree = "<group>"; };
+		FD2B57391FE0F41A00FAC54D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD3B80141FE0AF5700449366 /* YouTubeListener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeListener.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3B80171FE0AF5700449366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD3B80191FE0AF5700449366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,7 @@
 		FD3B80331FE0AF5800449366 /* YouTubeListenerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YouTubeListenerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3B80371FE0AF5800449366 /* YouTubeListenerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouTubeListenerUITests.swift; sourceTree = "<group>"; };
 		FD3B80391FE0AF5800449366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD3B80461FE0B02D00449366 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77360FF356279054A0618F6 /* Pods_YouTubeListener.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74E24B0C78C42A3C3355A074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C9D867A54F3ED540B9D05E8 /* Pods_YouTubeListener.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B54FE084688334B7E7CCBF6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C919B63C5D17BC2DA6AC5D61 /* Pods-YouTubeListener.debug.xcconfig */,
+				E1F56C93C1F080EF99CCB559 /* Pods-YouTubeListener.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD3B800B1FE0AF5700449366 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,8 @@
 				FD3B802B1FE0AF5800449366 /* YouTubeListenerTests */,
 				FD3B80361FE0AF5800449366 /* YouTubeListenerUITests */,
 				FD3B80151FE0AF5700449366 /* Products */,
+				B54FE084688334B7E7CCBF6D /* Pods */,
+				74E24B0C78C42A3C3355A074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +126,8 @@
 		FD3B80161FE0AF5700449366 /* YouTubeListener */ = {
 			isa = PBXGroup;
 			children = (
+				FD2B57391FE0F41A00FAC54D /* GoogleService-Info.plist */,
+				FD3B80461FE0B02D00449366 /* MyPlayground.playground */,
 				FD3B80171FE0AF5700449366 /* AppDelegate.swift */,
 				FD3B80191FE0AF5700449366 /* ViewController.swift */,
 				FD3B801B1FE0AF5700449366 /* Main.storyboard */,
@@ -132,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD3B803C1FE0AF5800449366 /* Build configuration list for PBXNativeTarget "YouTubeListener" */;
 			buildPhases = (
+				3FA075F861016DA9A50618ED /* [CP] Check Pods Manifest.lock */,
 				FD3B80101FE0AF5700449366 /* Sources */,
 				FD3B80111FE0AF5700449366 /* Frameworks */,
 				FD3B80121FE0AF5700449366 /* Resources */,
+				9B37F50AE2EEE2BD24B9E15D /* [CP] Embed Pods Frameworks */,
+				ECB6CF6AE590EFBCD8117C0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD3B80221FE0AF5800449366 /* LaunchScreen.storyboard in Resources */,
+				FD2B573A1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */,
 				FD3B801F1FE0AF5800449366 /* Assets.xcassets in Resources */,
 				FD3B801D1FE0AF5700449366 /* Main.storyboard in Resources */,
 			);
@@ -242,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2B573B1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +285,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD2B573C1FE0F41A00FAC54D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA075F861016DA9A50618ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouTubeListener-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B37F50AE2EEE2BD24B9E15D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB6CF6AE590EFBCD8117C0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouTubeListener/Pods-YouTubeListener-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD3B80101FE0AF5700449366 /* Sources */ = {
@@ -424,6 +524,7 @@
 		};
 		FD3B803D1FE0AF5800449366 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C919B63C5D17BC2DA6AC5D61 /* Pods-YouTubeListener.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +540,7 @@
 		};
 		FD3B803E1FE0AF5800449366 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F56C93C1F080EF99CCB559 /* Pods-YouTubeListener.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

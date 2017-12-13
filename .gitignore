@@ -1,0 +1,3 @@
+# ignore some build fields and files
+*/xcuserdata/*
+Pods/
